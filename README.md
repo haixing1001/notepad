@@ -6,9 +6,16 @@
 
 # Open source WIFI driver 
 CONFIG_PACKAGE_kmod-mt7603=y
+
 CONFIG_PACKAGE_kmod-mt7603e=n
+
 CONFIG_PACKAGE_kmod-mt76x2=y
+
 CONFIG_PACKAGE_kmod-mt76x2e=n
+
 CONFIG_PACKAGE_hostapd-common=y
+
 CONFIG_PACKAGE_wpad-openssl=y
+
 CONFIG_PACKAGE_luci-app-mtwifi=n
+
