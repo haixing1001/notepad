@@ -2,6 +2,13 @@
 
 2.选择闭源驱动：mtwifi、kmod-mt7603e、kmod-mt7615d
 
+scp /tmp/157.config  root@host:/tmp/
+
+
+scp  root@host:/tmp/tt.config .config
+
+
+
 Extra packages---ipv6helper 
 
 # Open source WIFI driver 
