@@ -28,3 +28,12 @@ CONFIG_PACKAGE_luci-app-mtwifi=n
 
 make package/luci-theme-rosy/luci-theme-rosy/compile V=99
 svn checkout https://github.com/AmadeusGhost/lede/branches/ramips/target/linux/ramips
+cd /d/PA2
+git init
+git remote add -f  origin https://github.com/Yourens/decaf_PA2_2018.git
+git config core.sparseCheckout true
+echo 'TestCases' >> .git/info/sparse-checkout  
+git pull origin master
+————————————————
+版权声明：本文为CSDN博主「古老男」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/nynkl/article/details/107468724
