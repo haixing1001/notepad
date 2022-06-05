@@ -27,3 +27,4 @@ CONFIG_PACKAGE_wpad-openssl=y
 CONFIG_PACKAGE_luci-app-mtwifi=n
 
 make package/luci-theme-rosy/luci-theme-rosy/compile V=99
+svn checkout https://github.com/AmadeusGhost/lede/branches/ramips/target/linux/ramips
